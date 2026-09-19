@@ -5,15 +5,24 @@ class Robo {
         this.colour = colour;
     }
 
-    sayhi() {
+    
 
-        console.log(" bebeeb  + ", this.name );
+}   
+class Model extends Robo {
+
+    constructor(name,model){
+        super(name);
+        this.model = model ;
+    }
+
+sayhi(){
+
+        console.log(" bebeeb  + ", this.name , this.model );
         
     }
    
+}
+const Model1 = new Model("loki",22)
 
-}   
- const rqwb1= new Robo("lsdai", "blue")
- const rob1= new Robo("loki", "blue")
-
+Model1.sayhi();
 export default Robo;
