@@ -1,28 +1,10 @@
-class Robo {
+import { car } from "./constructor";
+import { car1,car2 } from "./constructor";
+function hello()  {
 
-    constructor(name, colour){
-        this.name = name ;
-        this.colour = colour;
-    }
+car1.greet(); 
 
-    
-
-}   
-class Model extends Robo {
-
-    constructor(name,model){
-        super(name);
-        this.model = model ;
-    }
-
-sayhi(){
-
-        console.log(" bebeeb  + ", this.name , this.model );
-        
-    }
-   
 }
-const Model1 = new Model("loki",22)
 
-Model1.sayhi();
-export default Robo;
+hello();
+export default hello

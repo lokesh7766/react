@@ -1,4 +1,4 @@
-class car {
+ export class car {
 
     constructor(name ){
 
@@ -11,8 +11,7 @@ class car {
   }
 }
 
-const car1  = new car("nissan")
-const car2  = new car("honda")
+ export const car1  = new car("nissan")
+export const car2  = new car("honda")
 
 
-export default car;
