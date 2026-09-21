@@ -8,7 +8,7 @@ const App = () => {
       <h1>lokesh</h1>
       <Greeting
       />
-      <Car/>
+      <Car color="red" wheels={4}/>
       
        </div>
 
