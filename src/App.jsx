@@ -1,9 +1,10 @@
-import { createRoot } from 'react-dom/client'
+function App() {
+  return (
+    <div>
+      <h1>My Cool Website</h1>
+      <p>Welcome!</p>
+    </div>
+  )
+}
 
-const myElement = <h1>I Love JSX!</h1>;
-
-createRoot(document.getElementById('root')).render(
-  myElement
-);
-
-            
+export default App
