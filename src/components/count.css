@@ -1,0 +1,12 @@
+.count-box{
+
+    border: 22px;
+    display: flex;
+    padding: 1.5rem;
+    
+
+    color: blueviolet;
+}
+#btn{
+    color: brown;
+}
